@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebd6ff;
+}
+
+.container{
+    height: 400px;
+    width: 250px;
+    margin: 250px auto;
+    border-radius: 30px;
+    box-shadow: 30px 30px 60px #c8b6d9, 
+    -30px -30px 60px #fff6ff;
+}
+
+.cal-box{
+    width: 200px;
+    margin: 20px auto;
+}
+
+#display{
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0px 25px 0px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: inset 7px 7px 10px #c8b6d9, 
+        inset -7px -7px 10px #fff6ff;
+    
+}
+
+.button{
+    margin: 18px 0 0 5px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ecc5ff, #c7a6e5);
+    box-shadow:  10px 10px 23px #ac90c6, 
+             -10px -10px 23px #ffe0ff;
+
+             display: inline-block;
+}
+
+.button:active{
+    border-radius: 15px;
+background: linear-gradient(145deg, #c7a6e5, #ecc5ff);
+box-shadow:  10px 10px 23px #ac90c6, 
+             -10px -10px 23px #ffe0ff;
+}
